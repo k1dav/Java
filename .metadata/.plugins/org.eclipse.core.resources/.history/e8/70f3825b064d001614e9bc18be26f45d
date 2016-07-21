@@ -1,0 +1,15 @@
+package ch02;
+
+public class ch02_06 {
+	String str1 = "first string";
+	String str2 = "second string";
+	String str3 = "will be connected.";
+	public static void main(String args[]){
+		 int myIntA=3;
+		 boolean logic=true;
+		 System.out.print("[Java basic io]\n");
+		 
+		
+		
+	}
+}

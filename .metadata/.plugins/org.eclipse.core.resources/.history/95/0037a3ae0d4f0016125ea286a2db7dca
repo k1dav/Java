@@ -1,0 +1,12 @@
+package ch02;
+import java.io.*;
+
+public class ch02_hw13 {
+	public static void main(String args[])throws IOException{
+		final double pi=3.1415926;
+		System.out.print("Please input r of circle:");
+		float r=(float)System.in.read();
+		System.out.print("The area of circle is "+pi*pi*r);
+		System.out.print("The perimeter of circle is "+2*pi*r);
+	}
+}

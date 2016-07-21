@@ -1,0 +1,11 @@
+package ch02;
+
+public class ch02_07 {
+	private static char myData;
+	public static void main(String args[]) throws IOException{
+		System.out.print("[Basic IO practice]\n");
+		System.out.print("Please Enter the char.");
+		myData=(char)System.in.read();
+		System.out.println("You Enter:"+myData);
+	}
+}

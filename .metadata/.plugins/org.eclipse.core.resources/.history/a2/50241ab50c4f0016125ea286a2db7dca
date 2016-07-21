@@ -1,0 +1,9 @@
+package ch02;
+
+public class ch02_hw6 {
+	public static void main(String args[]){
+		int a,b;
+		float c=(a+b);
+		System.out.println("Sum = "+c);
+	}
+}

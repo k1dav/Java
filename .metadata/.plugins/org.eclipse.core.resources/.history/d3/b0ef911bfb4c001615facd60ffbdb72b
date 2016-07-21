@@ -1,0 +1,8 @@
+package ch02;
+
+public class ch02_03 {
+	public static void main(String[] arges){
+		boolean logic =true;
+		System.out.println("This is="+logic);
+	}
+}

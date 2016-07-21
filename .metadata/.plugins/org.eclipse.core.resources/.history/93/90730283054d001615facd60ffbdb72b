@@ -1,0 +1,11 @@
+package ch02;
+
+public class ch02_06 {
+	public static void main(String[]args){
+		String stra = "firststring";
+		String strb="second string";
+		String strc="will be connected.";
+		int myinta=3;
+		
+	}
+}

@@ -1,0 +1,18 @@
+package ch02;
+
+public class ch02_09 {
+	public static void main(String args[]){
+	int apple=15,banana=20;
+	System.out.print("Ming buy 15 apples,20 bananas"
+			+ "Ming buy:");
+	System.out.println((apple+banana)+"fruits");
+	System.out.print("Apple 10 dollars,Banana 3 dollars,"
+			+"total is ");
+	System.out.println((apple*10+banana*3)+"dollars");
+	System.out.print("Apple 4 for 1 box,Banana 3 for 1 box,there ars");
+	System.out.println((apple/4)+"boxs");
+	System.out.println("After Packaging,there are"+(apple%4)+"apples and"
+	+(15-3*3)+"bananas");
+	
+	}
+}
