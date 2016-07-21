@@ -1,0 +1,38 @@
+package ch03;
+
+public class ch03_06 {
+	public static void main(String args[]){
+		char math_score='A';
+		System.out.println("Michael "+math_score);
+		switch(math_score){
+			case'A':
+				System.out.println("Very Good!");
+				break;
+			case 'B':
+				System.out.println("Well");
+				break;
+			case 'C':
+				System.out.println("Work Hard.");
+				break;
+			default:
+				System.out.println("So Bad");
+				break;
+		}
+		math_score='C';
+		System.out.println("Lena "+math_score);
+		switch(math_score){
+		case'A':
+			System.out.println("Very Good!");
+			break;
+		case 'B':
+			System.out.println("Well");
+			break;
+		case 'C':
+			System.out.println("Work Hard.");
+			break;
+		default:
+			System.out.println("So Bad");
+			break;
+	}
+	}
+}
